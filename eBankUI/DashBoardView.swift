@@ -56,6 +56,7 @@ struct DashBoardView: View {
                     Text("Positions")
                         .font(.headline)
                         .fontWeight(.light)
+                        .padding(.bottom, 12)
                     
                     Text("$ 13553.00")
                         .font(.title)
@@ -72,6 +73,7 @@ struct DashBoardView: View {
                     Text("Cash")
                         .font(.headline)
                         .fontWeight(.light)
+                        .padding(.bottom, 12)
                     
                     Text("$ 2250.00")
                         .foregroundStyle(.black)
@@ -87,8 +89,11 @@ struct DashBoardView: View {
             
             HStack() {
                 Text("\(appVars.tokenBonus)")
+                    .fontWeight(.bold)
+                    .fontDesign(.rounded)
+                    .fontWidth(.expanded)
                 
-                Text("Today")
+                Text(" Today ")
                     .background(.black)
                     .cornerRadius(3)
                     .foregroundStyle(.white)
