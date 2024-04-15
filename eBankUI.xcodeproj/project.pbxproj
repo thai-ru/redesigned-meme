@@ -14,6 +14,10 @@
 		009A8B0B2BCDBE0E00CE1D20 /* eBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A8B0A2BCDBE0E00CE1D20 /* eBankUITests.swift */; };
 		009A8B152BCDBE0E00CE1D20 /* eBankUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A8B142BCDBE0E00CE1D20 /* eBankUIUITests.swift */; };
 		009A8B172BCDBE0E00CE1D20 /* eBankUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A8B162BCDBE0E00CE1D20 /* eBankUIUITestsLaunchTests.swift */; };
+		009A8B242BCDBE3E00CE1D20 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A8B232BCDBE3E00CE1D20 /* DashBoardView.swift */; };
+		009A8B262BCDBE5600CE1D20 /* StringVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A8B252BCDBE5600CE1D20 /* StringVars.swift */; };
+		009A8B282BCDCB6200CE1D20 /* CircularChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A8B272BCDCB6200CE1D20 /* CircularChart.swift */; };
+		009A8B2A2BCDD22B00CE1D20 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A8B292BCDD22B00CE1D20 /* AnalyticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		009A8B102BCDBE0E00CE1D20 /* eBankUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBankUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009A8B142BCDBE0E00CE1D20 /* eBankUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBankUIUITests.swift; sourceTree = "<group>"; };
 		009A8B162BCDBE0E00CE1D20 /* eBankUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBankUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		009A8B232BCDBE3E00CE1D20 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		009A8B252BCDBE5600CE1D20 /* StringVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringVars.swift; sourceTree = "<group>"; };
+		009A8B272BCDCB6200CE1D20 /* CircularChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularChart.swift; sourceTree = "<group>"; };
+		009A8B292BCDD22B00CE1D20 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				009A8AF92BCDBE0C00CE1D20 /* eBankUIApp.swift */,
 				009A8AFB2BCDBE0C00CE1D20 /* ContentView.swift */,
+				009A8B232BCDBE3E00CE1D20 /* DashBoardView.swift */,
+				009A8B292BCDD22B00CE1D20 /* AnalyticsView.swift */,
+				009A8B272BCDCB6200CE1D20 /* CircularChart.swift */,
+				009A8B252BCDBE5600CE1D20 /* StringVars.swift */,
 				009A8AFD2BCDBE0E00CE1D20 /* Assets.xcassets */,
 				009A8AFF2BCDBE0E00CE1D20 /* Preview Content */,
 			);
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009A8B282BCDCB6200CE1D20 /* CircularChart.swift in Sources */,
+				009A8B242BCDBE3E00CE1D20 /* DashBoardView.swift in Sources */,
 				009A8AFC2BCDBE0C00CE1D20 /* ContentView.swift in Sources */,
+				009A8B2A2BCDD22B00CE1D20 /* AnalyticsView.swift in Sources */,
+				009A8B262BCDBE5600CE1D20 /* StringVars.swift in Sources */,
 				009A8AFA2BCDBE0C00CE1D20 /* eBankUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
